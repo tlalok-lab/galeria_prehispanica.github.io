@@ -1,0 +1,961 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+
+  <script src="https://getbootstrap.com/docs/5.3/assets/js/color-modes.js"></script>
+  <!--  <script src="../assets/js/color-modes.js"></script>  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="CFLR">
+  <meta name="generator" content="">
+  <title>Galeria Prehispanica</title>
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+
+
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="blog.css" rel="stylesheet">
+  <link href="blog2.css" rel="stylesheet">
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="check2" viewBox="0 0 16 16">
+      <path
+        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+    </symbol>
+    <symbol id="circle-half" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+    </symbol>
+    <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+      <path
+        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+      <path
+        d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+    </symbol>
+    <symbol id="sun-fill" viewBox="0 0 16 16">
+      <path
+        d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+    </symbol>
+  </svg>
+
+  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
+      aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+      <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
+        <use href="#circle-half"></use>
+      </svg>
+      <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
+          aria-pressed="false">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+            <use href="#sun-fill"></use>
+          </svg>
+          Light
+          <svg class="bi ms-auto d-none" width="1em" height="1em">
+            <use href="#check2"></use>
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+          aria-pressed="false">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+            <use href="#moon-stars-fill"></use>
+          </svg>
+          Dark
+          <svg class="bi ms-auto d-none" width="1em" height="1em">
+            <use href="#check2"></use>
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
+          aria-pressed="true">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+            <use href="#circle-half"></use>
+          </svg>
+          Auto
+          <svg class="bi ms-auto d-none" width="1em" height="1em">
+            <use href="#check2"></use>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="container">
+    <header class="blog-header lh-1 py-3">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Aztek</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse justify-content-center" id="navbarSupportedContent" style="">
+            <div class=" justify-content-center">
+              <ul class="navbar-nav  justify-content-center me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Tienda</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Redes Sociales
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://github.com/tlalok-lab">GitHub</a></li>
+                    <hr class="dropdown-divider">
+                    <li><a class="dropdown-item" href="https://www.linkedin.com/in/carlos-francisco-l%C3%B3pez-ram%C3%ADrez-6652bb212/">Linkedin</a></li>
+                    
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Ofertas</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+
+
+    </header>
+
+    <div class="nav-scroller py-1 mb-2 ">
+      <nav class="nav d-flex justify-content-between">
+        <a class="p-2 link-secondary sise_leter" href="#intro">Objetivos</a>
+        <a class="p-2 link-secondary sise_leter" href="#investig">Investigación de mercado</a>
+        <a class="p-2 link-secondary sise_leter" href="#compe">Análisis de la competencia</a>
+        <a class="p-2 link-secondary sise_leter" href="#presu">Presupuesto</a>
+        <a class="p-2 link-secondary sise_leter" href="#pre">Precio</a>
+        <a class="p-2 link-secondary sise_leter" href="#posi">Posicionamiento</a>
+        <a class="p-2 link-secondary sise_leter" href="#marc">Marca</a>
+        <a class="p-2 link-secondary sise_leter" href="#tra">Traza s</a>
+        <a class="p-2 link-secondary sise_leter" href="#monit">Monitoreo y análisis de resultados</a>
+        <a class="p-2 link-secondary sise_leter" href="#conclu">Estrategia de Marketing</a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container">
+    <hr class="featurette-divider">
+
+    <div class="row p-4 p-md-5 mb-4 rounded text-bg-dark">
+      <div class="col-md-7 px-0 ">
+        <h1 class="display-4 fst-italic">Los colores del pasado</h1>
+        <p class="lead my-3">Estudio de los colores y tamaños de las serpientes y estulturas prehispanicas localizadas
+          Templo Mayor</p>
+        <p class="lead mb-0"><a
+            href="https://drive.google.com/file/d/1jjO8XvnPTPA7TQT44aXylVaVDGlWuCrI/view?usp=share_link"
+            class="text-white fw-bold">Continua leyendo...</a></p>
+      </div>
+      <div class="col-md-5 justify-content-center my-auto ">
+
+        <img src="https://res.cloudinary.com/diesdm538/image/upload/v1683811246/tlaloc_trfyhd.jpg" class="rounded mx-auto d-block  " width=80% height=auto alt="...">
+      </div>
+    </div>
+    <hr class="featurette-divider">
+
+
+
+
+
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Diseño</strong>
+            <h3 class="mb-0">Blender</h3>
+            <div class="mb-1 text-body-secondary">Nov 12</div>
+            <p class="card-text mb-auto">Creacion, edicion , mighracion de contenido digital a blender.</p>
+            <a href="https://www.linkedin.com/in/carlos-francisco-l%C3%B3pez-ram%C3%ADrez-6652bb212/" class="stretched-link">Contacta al Asesor</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://res.cloudinary.com/diesdm538/image/upload/v1683811246/2_vxl4xv.png" class="bd-placeholder-img  " width="200" height="250" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Edicion</strong>
+            <h3 class="mb-0">Unreal Enguine 5</h3>
+            <div class="mb-1 text-body-secondary">Nov 11</div>
+            <p class="mb-auto">Creacion de esenarios y entornos virtuales 3D</p>
+            <a href="https://www.linkedin.com/in/carlos-francisco-l%C3%B3pez-ram%C3%ADrez-6652bb212/" class="stretched-link">Contacta al Asesor</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://res.cloudinary.com/diesdm538/image/upload/v1683811554/4_ooq0qp.png" class="bd-placeholder-img  " width="200" height="250" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-5">
+      <div class="col-md-8">
+        <h3 class="pb-4 mb-4 fst-italic border-bottom">
+          Documentos Clave
+        </h3>
+
+        <h1 class="text-center" id="plan">PLAN DE MERCADOTECNIA</h1>
+        <p class="justifi_text">Este blog se encarga de diseñar y difundir el plan de mercadotecnia para la galería
+          fotográfica
+          prehispánica en la Cuenca de México. Este plan está
+          diseñado para promover la galería y atraer a un público interesado en la cultura prehispánica y la
+          fotografía</p>
+        <hr>
+
+        <article class="blog-post" id="intro">
+          <h2 class="blog-post-title mb-1">
+            <h2>Introducción</h2>
+          </h2>
+          <p class="blog-post-meta">Mayo 2023 <a href="#">Carlos Fco. López Ramírez </a></p>
+          <p class="justifi_text">La Cuenca de México es una región rica en historia y cultura prehispánica. En este
+            contexto, se encuentra
+            una galería fotográfica que busca promover y preservar el legado de las civilizaciones prehispánicas a
+            través de la fotografía. El objetivo de este plan de mercadotecnia es posicionar y dar a conocer esta
+            galería como un destino cultural imperdible para los amantes de la fotografía y la historia..</p>
+          <p class="justifi_text">La galería fotográfica prehispánica tiene como propósito principal mostrar el
+            esplendor de las
+            civilizaciones antiguas que habitaron la Cuenca de México. A través de fotografías auténticas y
+            cuidadosamente seleccionadas, los visitantes tendrán la oportunidad de sumergirse en el pasado y descubrir
+            la grandeza y el arte de estas culturas.:</p>
+          <p class="justifi_text">El plan de mercadotecnia se enfocará en identificar y atraer a un público diverso,
+            incluyendo tanto a
+            turistas nacionales e internacionales como a residentes locales interesados en la historia y la cultura
+            prehispánica. A través de estrategias de promoción efectivas y la creación de una experiencia única para los
+            visitantes, se buscará aumentar la visibilidad de la galería y generar un flujo constante de visitas y
+            ventas de fotografías y productos relacionados.</p>
+          <p class="justifi_text">Este plan de mercadotecnia combinará diversas estrategias, desde la creación de una
+            sólida identidad de
+            marca hasta la implementación de herramientas digitales para llegar a un público más amplio. Además, se
+            enfocará en la mejora continua de la experiencia del visitante, brindando información educativa y
+            entretenida, así como servicios de calidad que superen las expectativas.</p>
+          <p class="justifi_text">El éxito de este plan de mercadotecnia se medirá a través de indicadores de desempeño,
+            tales como el
+            aumento en el número de visitantes, las ventas de productos y la satisfacción de los clientes. Con una
+            ejecución efectiva y un enfoque centrado en el valor que ofrece la galería, estamos seguros de que
+            lograremos posicionarla como un referente cultural en la Cuenca de México y atraer a un público apasionado
+            por la fotografía y la historia prehispánica.</p>
+          <ul>
+            <li>
+              <p>Objetivos</p>
+            </li>
+
+          </ul>
+
+
+          <ol>
+            <li>Aumentar la visibilidad y reconocimiento de la galería fotográfica prehispánica</li>
+            <li>Atraer a un público local y turistas interesados en la cultura prehispánica.</li>
+            <li>Generar ventas de fotografías y productos relacionados</li>
+          </ol>
+
+        </article>
+        <article class="blog-post" id="investig">
+          <h2 class="blog-post-title mb-1">Investigación de mercado</h2>
+          <p class="blog-post-meta">Mayo 2023 <a href="#">Carlos Fco. López Ramírez </a></p>
+
+          <p>La investigación de mercado desempeña un papel fundamental en el desarrollo de cualquier plan de
+            mercadotecnia. En el caso de la galería fotográfica prehispánica en la Cuenca de México, es importante
+            comprender a fondo el perfil del público objetivo, sus necesidades, preferencias y comportamientos de
+            compra.</p>
+          <blockquote>
+            <p>A continuación, <strong> se presentan algunas áreas clave a investigar:</strong> </p>
+          </blockquote>
+
+          <ul>
+            <li>
+              <p> <strong>Perfil del público objetivo: </strong></p>
+              <p>Identificar las características demográficas del público objetivo, como la edad, género, nivel
+                educativo y ocupación. Además, es importante conocer sus intereses, pasatiempos y qué los motiva a
+                visitar lugares culturales y artísticos. </p>
+            </li>
+            <li>
+              <p> <strong>Comportamiento de compra: </strong></p>
+              <p>Investigar cómo y dónde suelen realizar compras relacionadas con el arte y la cultura. Esto incluye
+                saber si prefieren adquirir fotografías y productos relacionados en galerías, tiendas especializadas,
+                ferias de arte, en línea, entre otros. </p>
+            </li>
+            <li>
+              <p> <strong>Competencia: </strong></p>
+              <p>Analizar a la competencia local, incluyendo galerías de arte, museos, exposiciones y eventos culturales
+                relacionados con la cultura prehispánica. Identificar qué estrategias de marketing utilizan, qué tipo de
+                público atraen y cómo se diferencian de la galería fotográfica prehispánica. </p>
+            </li>
+            <li>
+              <p> <strong>Expectativas y necesidades: </strong></p>
+              <p>Realizar encuestas o entrevistas a posibles visitantes para comprender qué esperan encontrar en una
+                galería fotográfica prehispánica. Preguntar sobre los aspectos que más valoran, como la autenticidad de
+                las fotografías, la información proporcionada, la calidad de la exhibición, entre otros.. </p>
+            </li>
+            <li>
+              <p> <strong>Medios de comunicación y canales de información: </strong></p>
+              <p>Identificar los medios de comunicación y canales de información más utilizados por el público objetivo.
+                Esto puede incluir revistas especializadas, blogs, redes sociales, sitios web, entre otros. Conocer
+                estos canales permitirá desarrollar estrategias de promoción más efectivas. </p>
+            </li>
+            <li>
+              <p> <strong>Turismo local e internacional: </strong></p>
+              <p>Investigar el perfil de los turistas locales e internacionales que visitan la Cuenca de México.
+                Determinar si existe un interés específico en la cultura prehispánica y si hay oportunidades de
+                promoción dirigidas a este segmento. </p>
+            </li>
+
+          </ul>
+
+          <p>La investigación de mercado puede realizarse a través de encuestas, entrevistas, grupos focales o el
+            análisis de datos secundarios disponibles. La información recopilada ayudará a definir la estrategia de
+            marketing más adecuada y a desarrollar mensajes y acciones que sean atractivos y relevantes para el público
+            objetivo de la galería fotográfica prehispánica.</p>
+        </article>
+
+        <article class="blog-post" id="produ">
+          <h2 class="blog-post-title mb-1">Producto</h2>
+          <p class="blog-post-meta">Mayo 2023 <a href="#">Carlos Fco. López Ramírez </a></p>
+
+          <p>El producto principal de la galería fotográfica prehispánica en la Cuenca de México es la exhibición de
+            fotografías auténticas que capturan la grandeza y el arte de las civilizaciones prehispánicas. Estas
+            fotografías se seleccionan cuidadosamente para mostrar aspectos destacados de la cultura, la arquitectura,
+            las artes y las tradiciones de estas civilizaciones.</p>
+          <blockquote>
+            <p>Además de las fotografías,<strong> la galería puede ofrecer productos relacionados para complementar la
+                experiencia del visitante y generar ingresos adicionales. </strong>Algunos posibles productos que se
+              pueden considerar incluyen: </p>
+          </blockquote>
+          <ul>
+            <li>
+              <p> <strong>Reproducciones de fotografías: </strong></p>
+              <p>Ofrecer copias impresas de alta calidad de las fotografías expuestas en la galería. Estas copias pueden
+                estar disponibles en diferentes tamaños y formatos, como impresiones enmarcadas, lienzos o posters. </p>
+            </li>
+            <li>
+              <p> <strong>Catálogos y libros: </strong></p>
+              <p>Desarrollar catálogos o libros que presenten una recopilación de las fotografías y brinden información
+                adicional sobre las civilizaciones prehispánicas. Estos materiales pueden servir como recuerdo de la
+                visita y como fuente de conocimiento para los interesados en la historia y la cultura prehispánica. </p>
+            </li>
+
+            <li>
+              <p> <strong>Productos promocionales: </strong></p>
+              <p>Crear una línea de productos promocionales con diseños relacionados con las fotografías y la cultura
+                prehispánica. Estos productos pueden incluir camisetas, tazas, llaveros, imanes, entre otros. Serían
+                artículos que los visitantes puedan adquirir como recuerdos de su visita o regalos para amigos y
+                familiares. </p>
+            </li>
+            <li>
+              <p> <strong>Experiencias interactivas: </strong></p>
+              <p>Además de las fotografías, se pueden ofrecer experiencias interactivas relacionadas con la cultura
+                prehispánica, como talleres de arte prehispánico, demostraciones de técnicas de fotografía o visitas
+                guiadas temáticas. Estas experiencias pueden agregar valor a la visita y brindar una oportunidad única
+                de aprendizaje y participación activa. </p>
+            </li>
+
+          </ul>
+
+          <p>Es importante asegurarse de que los productos estén alineados con la propuesta de valor de la galería y la
+            experiencia que se desea brindar. Además, es recomendable realizar un análisis de costos y precios para
+            determinar la viabilidad económica de los productos y establecer precios justos y competitivos.</p>
+          <p> <strong>La diversificación de productos puede ayudar a generar ingresos adicionales, fortalecer la marca
+              de la galería y ofrecer opciones para diferentes preferencias y presupuestos de los visitantes. </strong>
+          </p>
+        </article>
+
+
+        <article class="blog-post" id="compe">
+          <h2 class="blog-post-title mb-1">Análisis de la competencia.</h2>
+          <p class="blog-post-meta">Mayo 2023 <a href="#">Carlos Fco. López Ramírez </a></p>
+
+          <p>Para desarrollar un análisis de la competencia en el contexto de la galería fotográfica prehispánica en la
+            Cuenca de México, es importante identificar a otras galerías, museos, exposiciones u otros lugares
+            culturales que ofrecen experiencias similares o compiten por la atención del público interesado en la
+            cultura prehispánica. .</p>
+          <blockquote>
+            <p><strong> Aquí tienes algunos pasos para llevar a cabo este análisis: </strong> </p>
+          </blockquote>
+          <ul>
+            <li>
+              <p> <strong>Identificación de competidores: </strong></p>
+              <p>Investiga y identifica a las galerías, museos u otros lugares culturales que exhiben fotografías o arte
+                relacionado con la cultura prehispánica en la Cuenca de México. Estos competidores pueden ser tanto
+                establecimientos físicos como virtuales. </p>
+            </li>
+            <li>
+              <p> <strong>Análisis de la propuesta de valor </strong></p>
+              <p>Examina las características únicas y los elementos diferenciadores de cada competidor. ¿Qué tipo de
+                fotografías o arte prehispánico exhiben? ¿Cómo se presenta la información? ¿Ofrecen actividades
+                interactivas o experiencias adicionales? Comprender lo que ofrece cada competidor te permitirá
+                identificar oportunidades para destacar y diferenciar la propuesta de tu galería. </p>
+            </li>
+
+            <li>
+              <p> <strong>Público objetivo: </strong></p>
+              <p>Analiza el público objetivo al que se dirigen tus competidores. ¿Se enfocan en atraer a turistas
+                internacionales, a residentes locales o a ambos? ¿Tienen algún segmento específico dentro del público
+                interesado en la cultura prehispánica? Esta información te ayudará a definir tu propia estrategia de
+                segmentación y posicionamiento. </p>
+            </li>
+            <li>
+              <p> <strong>Estrategias de marketing: </strong></p>
+              <p>Investiga las estrategias de marketing que utilizan tus competidores. ¿Tienen una fuerte presencia en
+                redes sociales? ¿Realizan campañas publicitarias? ¿Participan en eventos o colaboran con
+                influenciadores? Analizar sus tácticas de promoción te permitirá identificar oportunidades para destacar
+                y llegar a tu público objetivo. </p>
+            </li>
+            <li>
+              <p> <strong>Experiencia del visitante: </strong></p>
+              <p>Evalúa la experiencia del visitante que ofrecen tus competidores. ¿Cómo es la calidad de la exhibición
+                y la presentación de las fotografías? ¿Ofrecen visitas guiadas, audioguías u otras formas de enriquecer
+                la visita? Considera los aspectos que los visitantes valoran y busca mejorar o diferenciarte en aquellos
+                aspectos en los que tus competidores podrían tener debilidades. </p>
+            </li>
+            <li>
+              <p> <strong>Precios y modelos de negocio: </strong></p>
+              <p>Examina los precios de entrada y los productos adicionales que ofrecen tus competidores. Esto te
+                ayudará a establecer precios competitivos y a desarrollar una estrategia de precios adecuada. También es
+                importante analizar los modelos de negocio, como si ofrecen membresías, descuentos especiales o alianzas
+                con otros establecimientos. </p>
+            </li>
+
+          </ul>
+
+
+
+          <p>El análisis de la competencia proporcionará una comprensión más profunda del mercado en el que operas y te
+            permitirá identificar oportunidades y desarrollar estrategias efectivas para diferenciarte y destacar en la
+            galería fotográfica prehispánica de la Cuenca de México.</p>
+
+        </article>
+
+        <article class="blog-post" id="presu">
+          <h2 class="blog-post-title mb-1">Presupuesto</h2>
+          <p class="blog-post-meta">Mayo 2023 <a href="#">Carlos Fco. López Ramírez </a></p>
+
+          <p>El presupuesto de marketing para la galería fotográfica prehispánica en la Cuenca de México dependerá de
+            varios factores, como el tamaño de la galería, los objetivos de marketing específicos y los recursos
+            disponibles</p>
+          <blockquote>
+            <p><strong> Aspectos clave a considerar al elaborar un presupuesto: </strong> </p>
+          </blockquote>
+          <ul>
+            <li>
+              <p> <strong>Investigación de mercado: </strong></p>
+              <p>Asigna una parte del presupuesto para llevar a cabo investigaciones de mercado, como encuestas,
+                entrevistas o análisis de datos secundarios. Esta investigación te proporcionará información valiosa
+                sobre el público objetivo y los competidores, lo que ayudará a orientar tus estrategias de marketing.
+              </p>
+            </li>
+            <li>
+              <p> <strong>Desarrollo de marca y materiales de promoción: </strong></p>
+              <p>Destina fondos para el desarrollo de una identidad de marca sólida, incluyendo el diseño de un
+                logotipo, materiales de papelería y elementos de comunicación visual. También considera los costos de
+                impresión de folletos, carteles, catálogos u otros materiales promocionales necesarios para dar a
+                conocer la galería y sus exposiciones. </p>
+            </li>
+
+            <li>
+              <p> <strong>Presencia en línea: </strong></p>
+              <p>Asigna recursos para la creación y mantenimiento de un sitio web atractivo y funcional. Esto incluye el
+                diseño y desarrollo del sitio, el alojamiento web, la compra de dominios y posibles costos relacionados
+                con la contratación de profesionales o agencias para ayudar en la creación de contenido o en la
+                optimización de motores de búsqueda (SEO). Además, considera el presupuesto para la gestión de redes
+                sociales y campañas publicitarias en línea </p>
+            </li>
+            <li>
+              <p> <strong>Promoción y publicidad: </strong></p>
+              <p>Determina un presupuesto para actividades promocionales, como la participación en eventos, ferias o
+                exposiciones relacionadas con el arte y la cultura prehispánica. También considera los costos de
+                publicidad en medios locales, revistas especializadas, directorios en línea, entre otros. </p>
+            </li>
+            <li>
+              <p> <strong>Experiencia del visitante: </strong></p>
+              <p>DIncluye en el presupuesto la mejora de la experiencia del visitante, como la contratación de personal
+                capacitado para guiar las visitas, la implementación de tecnologías interactivas o la creación de
+                actividades complementarias que enriquezcan la visita.. </p>
+            </li>
+            <li>
+              <p> <strong>Medición y análisis: </strong></p>
+              <p>Reserva recursos para el seguimiento y análisis del desempeño de las estrategias de marketing
+                implementadas. Esto puede incluir el uso de herramientas de análisis web, encuestas de satisfacción del
+                cliente y otros métodos para evaluar el impacto y el retorno de la inversión de las acciones de
+                marketing. </p>
+            </li>
+
+
+          </ul>
+
+          <p>Es importante asignar un presupuesto realista y ajustado a los recursos disponibles. Al elaborar el
+            presupuesto, considera tanto los gastos iniciales como los costos recurrentes a lo largo del tiempo.</p>
+          <p> <strong>Además, es recomendable monitorear y ajustar el presupuesto a medida que avanzas en la
+              implementación del plan de marketing y obtienes resultados y retroalimentación.. </strong>
+          </p>
+        </article>
+
+        <article class="blog-post" >
+          <h2 class="blog-post-title mb-1">Precio, posicionamiento y marca.</h2>
+          <p class="blog-post-meta">Mayo 2023 <a href="#">Carlos Fco. López Ramírez </a></p>
+
+
+          <blockquote id="pre">
+            <p><strong> Precio: </strong> </p>
+          </blockquote>
+          <ul>
+
+            <li>
+
+              <p>El precio de entrada a la galería fotográfica prehispánica en la Cuenca de México debe ser determinado
+                cuidadosamente, considerando factores como los costos operativos, los precios de la competencia y el
+                valor percibido por los visitantes. Es importante encontrar un equilibrio entre ser accesible para
+                atraer a un público amplio y generar ingresos suficientes para cubrir los gastos y obtener ganancias. Se
+                pueden considerar diferentes opciones de precios, como tarifas diferenciadas para residentes locales,
+                estudiantes, grupos o descuentos en determinados días u horarios. Además, es importante evaluar la
+                demanda y realizar ajustes periódicos en los precios según sea necesario. </p>
+            </li>
+
+          </ul>
+
+          <blockquote id="posi">
+            <p><strong> Posicionamiento: </strong> </p>
+          </blockquote>
+          <ul>
+
+            <li>
+
+              <p>El posicionamiento de la galería fotográfica prehispánica es clave para diferenciarse de la competencia
+                y captar la atención de su público objetivo. Para lograr un posicionamiento efectivo, es necesario
+                identificar los atributos únicos de la galería y comunicarlos de manera clara y consistente a través de
+                todas las acciones de marketing. El enfoque en la autenticidad de las fotografías prehispánicas, la
+                calidad de la exhibición, la experiencia del visitante y el valor educativo pueden ser elementos
+                diferenciadores importantes. Es fundamental comprender las necesidades y deseos del público objetivo y
+                destacar cómo la galería satisface esas necesidades de manera excepcional en comparación con otros
+                competidores. </p>
+            </li>
+
+          </ul>
+          <blockquot id="marc">
+            <p><strong> Marca: </strong> </p>
+          </blockquot>
+          <ul>
+
+            <li>
+
+              <p>La marca de la galería fotográfica prehispánica debe reflejar su propuesta de valor y personalidad. Es
+                importante desarrollar una identidad de marca sólida que transmita la esencia de la galería y sea
+                atractiva para el público objetivo. Esto incluye el diseño de un logotipo distintivo, la elección de
+                colores, tipografía y otros elementos visuales coherentes con la temática prehispánica. La marca también
+                se construye a través de la comunicación y la interacción con los visitantes. Cada punto de contacto, ya
+                sea en el sitio web, en redes sociales, en la galería o a través de materiales promocionales, debe
+                reflejar la identidad de la marca y transmitir los valores y la experiencia que la galería ofrece. La
+                consistencia en la imagen de marca y la calidad en la entrega de la experiencia del visitante
+                contribuirán a fortalecer y posicionar la marca de la galería en la mente de su público objetivo. </p>
+            </li>
+
+          </ul>
+
+
+
+
+
+        </article>
+
+        <article class="blog-post" id="tra">
+          <h2 class="blog-post-title mb-1">Traza</h2>
+          <p class="blog-post-meta">Mayo 2023 <a href="#">Carlos Fco. López Ramírez </a></p>
+
+          <p>Al establecer objetivos para la galería fotográfica prehispánica en la Cuenca de México, es importante que
+            sean realistas y alcanzables. Aquí te presento algunos objetivos que podrías considerar:</p>
+          <blockquote>
+            <p><strong> Pasos para llevar a cabo este análisis: </strong> </p>
+          </blockquote>
+          <ul>
+            <li>
+              <p> <strong>Aumentar el número de visitantes: </strong></p>
+              <p>Establece una meta específica para incrementar el número de visitantes a la galería durante un período
+                determinado. Esto puede lograrse a través de estrategias de promoción, publicidad y colaboraciones con
+                otros actores culturales y turísticos de la región. </p>
+              <blockquote>
+                <p><strong> Ejemplo: </strong> </p>
+              </blockquote>
+              <ul>
+                <li>
+                  <p>Aumentar el número de visitantes en un 20% en los próximos seis meses en comparación con el mismo
+                    período del año anterior. </p>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <p> <strong>Mejorar la experiencia del visitante: </strong></p>
+              <p>Establece objetivos relacionados con la calidad y la satisfacción del visitante. Puedes medirlo a
+                través de encuestas de satisfacción, comentarios y reseñas positivas. </p>
+              <blockquote>
+                <p><strong> Ejemplo: </strong> </p>
+              </blockquote>
+              <ul>
+                <li>
+                  <p>Alcanzar una calificación promedio de satisfacción del visitante de al menos 4.5 sobre 5 en los
+                    próximos 12 meses. </p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p> <strong>Aumentar la visibilidad y conciencia de la galería: </strong></p>
+              <p>Fija metas para aumentar la presencia en línea y la visibilidad de la galería en medios de comunicación
+                y redes sociales. Esto puede incluir aumentar el número de seguidores en redes sociales, menciones en
+                medios de comunicación o la aparición en guías turísticas y directorios especializados. </p>
+              <blockquote>
+                <p><strong> Ejemplo: </strong> </p>
+              </blockquote>
+              <ul>
+                <li>
+                  <p>Aumentar el número de seguidores en Instagram en un 30% en los próximos tres meses. </p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p> <strong>Generar ingresos adicionales: </strong></p>
+              <p>Establece metas financieras para generar ingresos a través de la venta de productos relacionados,
+                actividades complementarias o alianzas estratégicas con otras organizaciones o empresas </p>
+              <blockquote>
+                <p><strong> Ejemplo: </strong> </p>
+              </blockquote>
+              <ul>
+                <li>
+                  <p>Aumentar los ingresos por ventas de productos relacionados en un 15% en el próximo año. </p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p> <strong>Establecer alianzas estratégicas: </strong></p>
+              <p>Define objetivos para establecer alianzas con otros actores culturales, turísticos o educativos de la
+                región. Estas alianzas pueden incluir colaboraciones para promociones conjuntas, programas educativos o
+                eventos especiales. </p>
+              <blockquote>
+                <p><strong> Ejemplo: </strong> </p>
+              </blockquote>
+              <ul>
+                <li>
+                  <p>Establecer al menos tres alianzas estratégicas con organizaciones culturales o turísticas en los
+                    próximos seis meses. </p>
+                </li>
+              </ul>
+            </li>
+
+
+
+          </ul>
+
+
+
+          <p>Recordar que los objetivos deben ser específicos, medibles, alcanzables, relevantes y con un marco de
+            tiempo definido (SMART, por sus siglas en inglés). Adaptar estos ejemplos a la situación y necesidades
+            específicas de la galería ayudará a establecer metas realistas y motivadoras.</p>
+
+        </article>
+
+
+
+        
+
+
+
+        <article class="blog-post" id="monit">
+          <h2 class="blog-post-title mb-1">Monitoreo y análisis de resultados</h2>
+          <p class="blog-post-meta">Mayo 2023 <a href="#">Carlos Fco. López Ramírez </a></p>
+
+          <p>El monitoreo y análisis de resultados son fundamentales para evaluar el desempeño de la galería fotográfica
+            prehispánica y realizar ajustes en las estrategias de marketing.</p>
+          <blockquote>
+            <p><strong> Pasos clave para llevar a cabo este proceso: </strong> </p>
+          </blockquote>
+          <ul>
+            <li>
+              <p> <strong>Establece métricas de seguimiento: </strong></p>
+              <p>Identifica las métricas relevantes que te permitirán evaluar el progreso hacia tus objetivos. Estas
+                métricas pueden incluir el número de visitantes, el porcentaje de satisfacción del visitante, el
+                crecimiento de seguidores en redes sociales, las ventas de productos relacionados, entre otras. </p>
+            </li>
+            <li>
+              <p> <strong>Recopila datos </strong></p>
+              <p>Implementa sistemas para recopilar los datos necesarios para medir las métricas establecidas. Esto
+                puede incluir el uso de herramientas de análisis web, encuestas de satisfacción, seguimiento de redes
+                sociales y ventas, entre otros. Asegúrate de contar con los permisos y consentimientos necesarios para
+                recopilar y utilizar los datos de manera ética y legal. </p>
+            </li>
+
+            <li>
+              <p> <strong>Analiza los resultados: </strong></p>
+              <p>Realiza un análisis regular de los datos recopilados para obtener información valiosa sobre el
+                desempeño de la galería y las estrategias de marketing implementadas. Identifica patrones, tendencias y
+                áreas de mejora. Compara los resultados con los objetivos establecidos y evalúa si se están alcanzando o
+                si se requieren ajustes. </p>
+            </li>
+            <li>
+              <p> <strong>Toma decisiones basadas en los datos: </strong></p>
+              <p>Utiliza los insights obtenidos del análisis para tomar decisiones informadas. Si identificas áreas de
+                mejora, busca soluciones y ajusta tus estrategias de marketing en consecuencia. Si encuentras tácticas o
+                acciones que están generando buenos resultados, considera ampliarlas o replicarlas en otras áreas. </p>
+            </li>
+            <li>
+              <p> <strong>Ajusta y mejora: </strong></p>
+              <p>A medida que implementes cambios en tus estrategias de marketing, continúa monitoreando y analizando
+                los resultados para evaluar su efectividad. Realiza ajustes y mejoras continuas basadas en los datos y
+                los aprendizajes obtenidos. Recuerda que el monitoreo y análisis deben ser un proceso constante y no
+                solo una actividad puntual. </p>
+            </li>
+            <li>
+              <p> <strong>Comunica los resultados: </strong></p>
+              <p>Comparte los resultados y aprendizajes con el equipo de la galería, los socios y otros stakeholders
+                relevantes. La comunicación abierta y transparente fomentará el aprendizaje organizacional y permitirá
+                que todos estén alineados y comprometidos con los objetivos de la galería. </p>
+            </li>
+
+          </ul>
+
+
+
+          <p>El monitoreo y análisis de resultados ayudarán a medir el impacto de tus acciones de marketing, identificar
+            áreas de mejora y realizar ajustes estratégicos. La adaptación y mejora continua son clave para lograr el
+            éxito en el mercado.</p>
+
+        </article>
+
+
+
+        <article class="blog-post" id="estra">
+          <h2 class="blog-post-title mb-1">Estrategia</h2>
+          <p class="blog-post-meta">Mayo 2023 <a href="#">Carlos Fco. López Ramírez </a></p>
+
+          <p>Definir una estrategia de marketing online efectiva es fundamental para promocionar y posicionar la galería
+            fotográfica prehispánica en la Cuenca de México en el entorno digital. </p>
+          <blockquote>
+            <p><strong>Pasos clave para desarrollar una estrategia de marketing online: </strong> </p>
+          </blockquote>
+          <ul>
+            <li>
+              <p> <strong>Establece objetivos claros: </strong></p>
+              <p>Define los objetivos específicos que deseas lograr con tu estrategia de marketing online. Estos
+                objetivos pueden incluir aumentar la visibilidad de la galería en línea, atraer tráfico cualificado al
+                sitio web, generar ventas de productos relacionados, aumentar la participación en redes sociales, entre
+                otros. </p>
+            </li>
+            <li>
+              <p> <strong>Identifica a tu público objetivo: </strong></p>
+              <p>Comprende a quién te estás dirigiendo en el entorno digital. Investiga y define las características
+                demográficas, intereses y comportamientos de tu público objetivo. Esto te ayudará a adaptar tus mensajes
+                y tácticas de marketing para llegar de manera efectiva a tu audiencia. </p>
+            </li>
+
+            <li>
+              <p> <strong>Crea una identidad y mensaje de marca coherentes: </strong></p>
+              <p>Define una identidad de marca sólida y asegúrate de que se refleje en todas las plataformas y canales
+                en línea. Desarrolla un mensaje de marca claro y coherente que transmita los valores y la propuesta de
+                valor única de la galería. </p>
+            </li>
+            <li>
+              <p> <strong>Desarrolla una presencia en línea: </strong></p>
+              <p>Crea y optimiza un sitio web atractivo y funcional que proporcione información clara sobre la galería,
+                las exposiciones y las actividades. Asegúrate de que el sitio web sea responsive, es decir, que se
+                adapte a diferentes dispositivos móviles. Además, establece y gestiona perfiles en redes sociales
+                relevantes para tu público objetivo. </p>
+            </li>
+            <li>
+              <p> <strong>Genera contenido de calidad: </strong></p>
+              <p>Crea y comparte contenido relevante y de alta calidad que atraiga y mantenga el interés de tu
+                audiencia. Esto puede incluir artículos de blog, videos, fotografías, infografías y contenido
+                interactivo. Considera la temática prehispánica y brinda información educativa, histórica y cultural
+                para enriquecer la experiencia de tu público objetivo. </p>
+            </li>
+            <li>
+              <p> <strong>Utiliza estrategias de SEO: </strong></p>
+              <p>Optimiza tu presencia en línea para los motores de búsqueda utilizando estrategias de optimización de
+                motores de búsqueda (SEO). Investiga y utiliza palabras clave relevantes en tu contenido, mejora la
+                estructura del sitio web y trabaja en la construcción de enlaces para mejorar la visibilidad en los
+                resultados de búsqueda.. </p>
+            </li>
+            <li>
+              <p> <strong>Implementa estrategias de marketing de contenidos: </strong></p>
+              <p>Desarrolla una estrategia de marketing de contenidos que incluya la creación regular y la distribución
+                de contenido relevante. Esto te ayudará a atraer a tu audiencia objetivo, generar engagement y
+                establecer tu galería como un referente en la temática prehispánica. </p>
+            </li>
+            <li>
+              <p> <strong>Utiliza las redes sociales de manera estratégica: </strong></p>
+              <p>Utiliza las redes sociales de manera efectiva para promocionar tus exposiciones, compartir contenido
+                interesante, interactuar con tu audiencia y generar una comunidad en línea. Identifica las plataformas
+                sociales más relevantes para tu público objetivo y desarrolla una estrategia específica para cada una.
+              </p>
+            </li>
+            <li>
+              <p> <strong>Realiza campañas publicitarias online: </strong></p>
+              <p>Considera la posibilidad de invertir en publicidad online para aumentar la visibilidad y alcance de la
+                galería. Utiliza plataformas de publicidad como Google Ads, Facebook Ads o Instagram Ads para llegar a
+                tu audiencia objetivo </p>
+            </li>
+
+          </ul>
+
+        </article>
+
+
+        <article class="blog-post" id="conclu">
+          <h2 class="blog-post-title mb-1">Conclusiones</h2>
+          <p class="blog-post-meta">Mayo 2023 <a href="#">Carlos Fco. López Ramírez </a></p>
+
+          <p>El uso efectivo de la mercadotecnia puede traer numerosos beneficios a una galería fotográfica prehispánica
+            en la Cuenca de México. Aquí están algunas formas en las que la galería puede beneficiarse: </p>
+          <blockquote>
+            <p><strong>Formas en las que la galería puede beneficiarse: </strong> </p>
+          </blockquote>
+          <ul>
+            <li>
+              <p> <strong>Aumento de la visibilidad: </strong></p>
+              <p>: La mercadotecnia permite a la galería ser más visible para su público objetivo. A través de
+                estrategias de promoción y publicidad, la galería puede llegar a un mayor número de personas interesadas
+                en la temática prehispánica y atraer la atención hacia sus exposiciones y actividades. </p>
+            </li>
+            <li>
+              <p> <strong>Generación de demanda: </strong></p>
+              <p>Mediante el uso de técnicas de mercadotecnia, la galería puede despertar el interés y la demanda de su
+                público objetivo. Al comunicar eficazmente su propuesta de valor y los beneficios de visitar la galería,
+                se puede estimular a las personas a planificar una visita y participar en las experiencias ofrecidas.
+              </p>
+            </li>
+
+            <li>
+              <p> <strong>Fidelización de clientes: </strong></p>
+              <p>La mercadotecnia no solo se trata de atraer nuevos visitantes, sino también de mantener y fidelizar a
+                los clientes existentes. A través de estrategias de relaciones públicas, programas de fidelidad,
+                comunicación personalizada y atención al cliente, la galería puede crear vínculos más sólidos con su
+                audiencia y lograr que regresen en futuras ocasiones. </p>
+            </li>
+            <li>
+              <p> <strong>Diferenciación de la competencia: </strong></p>
+              <p>La galería puede destacarse de la competencia a través de una estrategia de mercadotecnia sólida. Al
+                comunicar de manera efectiva su propuesta única y destacar sus fortalezas, como la autenticidad de las
+                fotografías prehispánicas, la calidad de las exhibiciones y la experiencia del visitante, la galería
+                puede posicionarse como una opción preferida en el mercado. </p>
+            </li>
+            <li>
+              <p> <strong>Incremento de los ingresos: </strong></p>
+              <p>Una estrategia de mercadotecnia efectiva puede contribuir a aumentar los ingresos de la galería. Al
+                aumentar el número de visitantes, promover la venta de productos relacionados, generar colaboraciones
+                estratégicas y crear nuevas oportunidades de ingresos, la galería puede mejorar su rentabilidad y
+                sostenibilidad financiera. </p>
+            </li>
+            <li>
+              <p> <strong>Mejora de la reputación: </strong></p>
+              <p>La mercadotecnia bien ejecutada puede ayudar a construir una sólida reputación para la galería. Al
+                brindar una experiencia positiva, comunicar de manera efectiva los valores y la calidad de la galería, y
+                generar relaciones sólidas con la comunidad y los medios de comunicación, se puede fortalecer la
+                reputación y la imagen de la galería. </p>
+            </li>
+            <li>
+              <blockquote>
+                <p><strong> En resumen </strong> </p>
+              </blockquote>
+              <ul>
+                <li>
+                  <p>El uso de la mercadotecnia puede ser altamente beneficioso para una galería fotográfica
+                    prehispánica en la Cuenca de México. Al aprovechar estrategias efectivas de promoción, comunicación
+                    y relación con el cliente, la galería puede aumentar su visibilidad, atraer más visitantes, generar
+                    demanda, diferenciarse de la competencia, incrementar sus ingresos y construir una reputación sólida
+                    en el mercado. </p>
+                </li>
+
+              </ul>
+
+        </article>
+
+
+
+
+
+
+
+        <nav class="blog-pagination" aria-label="Pagination">
+          <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+          <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
+        </nav>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4 mb-3 bg-body-tertiary rounded">
+            <h4 class="fst-italic">Reconstruyendo el pasado</h4>
+            <p class="mb-0">Contactanos para asesoria.</p>
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic">Articulos</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#plan">PLAN DE MERCADOTECNIA</a></li>
+              <li><a href="#intro">Introducción y objetivos</a></li>
+              <li><a href="#investig">Investigación de mercado</a></li>
+              <li><a href="#produ">Producto</a></li>
+              <li><a href="#compe">Análisis de la competencia</a></li>
+              <li><a href="#presu">Presupuesto</a></li>
+              <li><a href="#pre">Precio</a></li>
+              <li><a href="#posi">Posicionamiento</a></li>
+              <li><a href="#marc">Marca</a></li>
+              <li><a href="#tra">Traza</a></li>
+              <li><a href="#monit">Monitoreo y análisis de resultados</a></li>
+              <li><a href="#estra">Estrategia de Marketing</a></li>
+              <li><a href="#conclu">Conclusiones</a></li>
+
+            </ol>
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic">Redes</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://github.com/tlalok-lab">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/carlos-francisco-l%C3%B3pez-ram%C3%ADrez-6652bb212/">Linkedin</a></li>
+              
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="blog-footer">
+    <p>Unitlalok <a href="">@</a> by <a
+        href="https://www.linkedin.com/in/carlos-francisco-l%C3%B3pez-ram%C3%ADrez-6652bb212/">CFRL</a>.</p>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
